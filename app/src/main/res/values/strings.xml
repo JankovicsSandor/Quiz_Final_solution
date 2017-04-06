@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question1">Wher is PHP applied?</string>
+    <string name="question1ansC">WEB</string>
+    <string name="question1ansB">Cooking</string>
+    <string name="question1ansA">Eating</string>
+    <string name="question2">When was facebook launched?</string>
+    <string name="question2ansA">2004</string>
+    <string name="question2ansB">2008</string>
+    <string name="question2ansC">2000</string>
+    <string name="question3">What can be seen on the picture(3 letters)</string>
+    <string name="question4">What is their most famous product(3 letters)</string>
+    <string name="question5">What can be seen below?</string>
+    <string name="question6">Which among them produces GPU?</string>
+    <string name="quest6ansA">Nvidia</string>
+    <string name="quest6ansB">Banana</string>
+    <string name="quest6ansC">AMD</string>
+    <string name="finish">DONE</string>
+    <string name="hint">Answer</string>
+
+</resources>

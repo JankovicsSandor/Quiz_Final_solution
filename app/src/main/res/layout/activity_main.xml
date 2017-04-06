@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <TextView
+            style="@style/first"
+            android:text="Player name:"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/player"
+            style="@style/first"
+            android:hint="Enter your name"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:onClick="send"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

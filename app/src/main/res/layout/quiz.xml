@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back">
+
+    <LinearLayout style="@style/quiz">
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            style="@style/radio"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/question1ansa"
+                style="@style/radiobutton"
+                android:text="@string/question1ansA" />
+
+            <RadioButton
+                android:id="@+id/question1ansb"
+                style="@style/radiobutton"
+                android:text="@string/question1ansB" />
+
+            <RadioButton
+                android:id="@+id/question1ansc"
+                style="@style/radiobutton"
+                android:text="@string/question1ansC" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/question2" />
+
+
+        <RadioGroup
+            style="@style/radio"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/question2ansa"
+                style="@style/radiobutton"
+                android:text="@string/question2ansA" />
+
+            <RadioButton
+
+                android:id="@+id/question2ansb"
+                style="@style/radiobutton"
+                android:text="@string/question2ansB" />
+
+            <RadioButton
+                android:id="@+id/question2ansc"
+                style="@style/radiobutton"
+                android:text="@string/question2ansC" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textview"
+            android:text="@string/question3" />
+
+        <ImageView
+            style="@style/images"
+            android:background="@drawable/cpu" />
+
+        <EditText
+            android:id="@+id/question3ans"
+            style="@style/edittext"
+            android:hint="@string/hint" />
+
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/question4" />
+
+
+        <ImageView
+            style="@style/images"
+            android:background="@drawable/download" />
+
+        <EditText
+            android:id="@+id/question4ans"
+            style="@style/edittext"
+            android:hint="@string/hint" />
+
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/question5" />
+
+
+        <ImageView
+            style="@style/images"
+            android:background="@drawable/motherboard" />
+
+        <EditText
+            android:id="@+id/question5ans"
+            style="@style/edittext"
+            android:hint="@string/hint" />
+
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/question6" />
+
+
+        <CheckBox
+            android:id="@+id/question6ans2"
+            style="@style/checkbox"
+            android:text="@string/quest6ansB" />
+
+        <CheckBox
+            android:id="@+id/question6ans1"
+            style="@style/checkbox"
+            android:text="@string/quest6ansA" />
+
+        <CheckBox
+            android:id="@+id/question6ans3"
+            style="@style/checkbox"
+            android:text="@string/quest6ansC" />
+
+        <Button
+            style="@style/finish"
+            android:onClick="finish" />
+    </LinearLayout>
+</ScrollView>
