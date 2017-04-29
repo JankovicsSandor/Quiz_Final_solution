@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 
 public class Quiz extends AppCompatActivity {
@@ -77,6 +78,7 @@ public class Quiz extends AppCompatActivity {
                 if (check6) {
                     points += goodPoint;
                 }
+                Toast.makeText(Quiz.this,getString(R.string.sum)+" "+ String.valueOf(points)+" "+getString(R.string.pt),Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Quiz.this, Result.class);
                 // Putting extra informations for the user to the evaluation
                 intent.putExtra("Question_1", check1);
@@ -87,6 +89,9 @@ public class Quiz extends AppCompatActivity {
                 intent.putExtra("Question_6", check6);
                 String name = getIntent().getExtras().getString("Name");
                 intent.putExtra("Name", name);
+                intent.putExtra("sum_points",points);
+                intent.putExtra("step",goodPoint);
+                points=0;
                 startActivity(intent);
             }
         });

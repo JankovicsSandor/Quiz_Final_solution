@@ -30,8 +30,8 @@
     <string name="result4">Fourth Question: </string>
     <string name="result5">Fifth Question: </string>
     <string name="result6">Sixth Question: </string>
-    <string name="onePoint">1</string>
-    <string name="zeroPoint">0</string>
+    <string name="onePoint">Correct</string>
+    <string name="zeroPoint">Wrong</string>
     <string name="hey">Hey</string>
     <string name="sum">Sum</string>
     <string name="pt">pts</string>
