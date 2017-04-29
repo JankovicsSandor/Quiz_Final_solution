@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Quiz</string>
-    <string name="question1">Wher is PHP applied?</string>
+    <string name="question1">Where is PHP applied?</string>
     <string name="question1ansC">WEB</string>
     <string name="question1ansB">Cooking</string>
     <string name="question1ansA">Eating</string>
@@ -8,8 +8,8 @@
     <string name="question2ansA">2004</string>
     <string name="question2ansB">2008</string>
     <string name="question2ansC">2000</string>
-    <string name="question3">What can be seen on the picture(3 letters)</string>
-    <string name="question4">What is their most famous product(3 letters)</string>
+    <string name="question3">What can be seen on the picture(3 letters)?</string>
+    <string name="question4">What is their most famous product(3 letters)?</string>
     <string name="question5">What can be seen below?</string>
     <string name="question6">Which among them produces GPU?</string>
     <string name="quest6ansA">Nvidia</string>
@@ -17,5 +17,23 @@
     <string name="quest6ansC">AMD</string>
     <string name="finish">DONE</string>
     <string name="hint">Answer</string>
+    <string name="start">Start</string>
+    <string name="name">Please enter your name: </string>
+    <string name="hinte">Enter your name:</string>
+    <string name="done">Done</string>
+    <string name="cpu">cpu</string>
+    <string name="gpu">gpu</string>
+    <string name="motherboard">motherboard</string>
+    <string name="result1">First Question: </string>
+    <string name="result2">Second Question: </string>
+    <string name="result3">Third Question: </string>
+    <string name="result4">Fourth Question: </string>
+    <string name="result5">Fifth Question: </string>
+    <string name="result6">Sixth Question: </string>
+    <string name="onePoint">1</string>
+    <string name="zeroPoint">0</string>
+    <string name="hey">Hey</string>
+    <string name="sum">Sum</string>
+    <string name="pt">pts</string>
 
 </resources>

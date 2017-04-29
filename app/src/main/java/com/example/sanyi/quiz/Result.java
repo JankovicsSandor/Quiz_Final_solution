@@ -4,9 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-/**
- * Created by Sanyi on 06/04/2017.
- */
 
 public class Result extends AppCompatActivity {
 
@@ -23,7 +20,7 @@ public class Result extends AppCompatActivity {
         TextView result6 = (TextView) findViewById(R.id.result6);
         String name = getIntent().getExtras().getString("Name");
         TextView textView = (TextView) findViewById(R.id.name);
-        textView.setText("Hey " + name + " check out your scores:");
+        textView.setText(getString(R.string.hey)+" " + name);
         Boolean q1 = getIntent().getExtras().getBoolean("Question_1");
         Boolean q2 = getIntent().getExtras().getBoolean("Question_2");
         Boolean q3 = getIntent().getExtras().getBoolean("Question_3");
@@ -31,44 +28,45 @@ public class Result extends AppCompatActivity {
         Boolean q5 = getIntent().getExtras().getBoolean("Question_5");
         Boolean q6 = getIntent().getExtras().getBoolean("Question_6");
         int score = 0;
+        // Evaluating the quiz sheet depending on the actual answer from the intent extras
         if (q1) {
-            result1.setText("First question : " + " 1 pts");
+            result1.setText(getString(R.string.result1)+" "+getString(R.string.onePoint));
             score++;
         } else {
-            result1.setText("First question : " + "0 pts");
+            result1.setText(getString(R.string.result1)+" "+getString(R.string.zeroPoint));
         }
         if (q2) {
-            result2.setText("Second question : " + " 1 pts");
+            result2.setText(getString(R.string.result2)+" "+getString(R.string.onePoint));
             score++;
         } else {
-            result2.setText("Second question : " + "0 pts");
+            result2.setText(getString(R.string.result2)+" "+getString(R.string.zeroPoint));
         }
         if (q3) {
-            result3.setText("Third question : " + " 1 pts");
+            result3.setText(getString(R.string.result3)+" "+getString(R.string.onePoint));
             score++;
         } else {
-            result3.setText("Third question : " + "0 pts");
+            result3.setText(getString(R.string.result3)+" "+getString(R.string.zeroPoint));
         }
         if (q4) {
-            result4.setText("Fourth question : " + " 1 pts");
+            result4.setText(getString(R.string.result4)+" "+getString(R.string.onePoint));
             score++;
         } else {
-            result4.setText("Fourth question : " + "0 pts");
+            result4.setText(getString(R.string.result4)+" "+getString(R.string.zeroPoint));
         }
         if (q5) {
-            result5.setText("Fifth question : " + " 1 pts");
+            result5.setText(getString(R.string.result5)+" "+getString(R.string.onePoint));
             score++;
         } else {
-            result5.setText("Fifth question : " + "0 pts");
+            result5.setText(getString(R.string.result5)+" "+getString(R.string.zeroPoint));
         }
         if (q6) {
-            result6.setText("Sixth question : " + " 1 pts");
+            result6.setText(getString(R.string.result6)+" "+getString(R.string.onePoint));
             score++;
         } else {
-            result6.setText("Sixth question : " + "0 pts");
+            result6.setText(getString(R.string.result6)+" "+getString(R.string.zeroPoint));
         }
         TextView result = (TextView) findViewById(R.id.result7);
-        result.setText("Sum : " + String.valueOf(score) + " pts");
+        result.setText(getString(R.string.sum)+" " + String.valueOf(score) +" "+getString(R.string.pt));
 
 
     }

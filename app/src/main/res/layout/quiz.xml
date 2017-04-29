@@ -122,7 +122,8 @@
             android:text="@string/quest6ansC" />
 
         <Button
+            android:id="@+id/done"
             style="@style/finish"
-            android:onClick="finish" />
+            android:text="@string/done"/>
     </LinearLayout>
 </ScrollView>
